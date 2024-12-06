@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Options xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Actions>
+    <string>data source=.\V17;initial catalog=JPB.NetworkWatcher.Database;integrated security=True;MultipleActiveResultSets=True</string>
+    <string>\ns</string>
+    <string>JPB.NetworkWatcher.Server.Server.Services.Storage.Entities.Poco</string>
+    <string>\addCompilerHeader</string>
+    <string>\autoGenNames</string>
+    <string>\withAutoCtor</string>
+    <string>\fkGen</string>
+    <string>\addConfigMethod</string>
+    <string>\compile</string>
+    <string>{Project}\Services\Storage\Entities\Poco</string>
+    <string>\exit</string>
+  </Actions>
+</Options>

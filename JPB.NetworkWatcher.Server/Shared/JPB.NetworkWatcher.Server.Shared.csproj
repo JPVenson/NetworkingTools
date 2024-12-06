@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\JPB.NetworkWatcher.Framework\JPB.NetworkWatcher.Framework.csproj" />
+  </ItemGroup>
+
+</Project>

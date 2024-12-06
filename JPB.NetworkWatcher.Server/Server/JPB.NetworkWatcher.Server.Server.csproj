@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>Net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JPB.DataAccess" Version="3.1.7.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="6.0.1" />
+    <PackageReference Include="Morestachio" Version="5.0.1.534" />
+    <PackageReference Include="Morestachio.Linq" Version="5.0.1.534" />
+    <PackageReference Include="NetServiceLocator" Version="1.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\JPB.NetworkWatcher.Framework\JPB.NetworkWatcher.Framework.csproj" />
+    <ProjectReference Include="..\Client\JPB.NetworkWatcher.Server.Client.csproj" />
+    <ProjectReference Include="..\Shared\JPB.NetworkWatcher.Server.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\Storage\Entities\Poco\" />
+  </ItemGroup>
+
+
+</Project>
